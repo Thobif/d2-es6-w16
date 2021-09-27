@@ -1,12 +1,11 @@
-//1.Assigned
+//1.assigned
 const sayAssign = function (){
-    return ('Hello');
+    return(`Hello `);
 }
 
-function greeting(sayHi,name){
+function greeting(sayHi, name){
     console.log(sayHi(),name);
 }
-
 
 greeting(sayAssign,"Mark");
 
